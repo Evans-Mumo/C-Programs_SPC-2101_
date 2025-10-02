@@ -1,8 +1,8 @@
-//Simple C Program , Single line comment
+//Simple C Program
 /*
 Name: Evans Mumo
 Reg: CT100/G/26238/25
-Description: body measurements
+Description: Body measurements
 */
 
 #include <stdio.h> //pre-processor directive scanf
@@ -30,3 +30,4 @@ int main(){
 	}
 
  
+
