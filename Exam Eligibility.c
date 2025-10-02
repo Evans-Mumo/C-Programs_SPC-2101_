@@ -11,15 +11,15 @@ int main() {
     float attendance;
     float average_marks;
 
-    // Get attendance percentage from the user
+    //Get attendance percentage from the user
     printf("Enter student's attendance percentage: ");
     scanf("%f", &attendance);
 
-    // Get average marks from the user
+    //Get average marks from the user
     printf("Enter student's average marks: ");
     scanf("%f", &average_marks);
 
-    // Check eligibility conditions
+    //Check eligibility conditions
     if (attendance >= 75 && average_marks >= 40) {
         printf("Eligible for exams.\n");
     } else {
@@ -27,4 +27,5 @@ int main() {
     }
 
     return 0;
+
 }
