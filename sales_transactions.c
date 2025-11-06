@@ -9,21 +9,22 @@ Description:Program that reads transactions from sales.txt and displays total sa
 #include <stdlib.h>
 
 int main(void) {
-    FILE *file = fopen("sales.txt", "r");
+    FILE *fptr = fopen("sales.txt", "r");
     double amount, total = 0.0;
 
-    if (!file) {
+    if (!fptr) {
         printf("Error: Could not open sales.txt for reading.\n");
         return 1;
     }
 
-    while (fscanf(file, "%lf", &amount) == 1) {
+    while (fscanf(fptr, "%lf", &amount) == 1) {
         total += amount;
     }
 
-    fclose(file);
+    fclose(fptr);
 
     printf("Total sales for the day: %.2f\n", total);
     return 0;
 }
+
 
