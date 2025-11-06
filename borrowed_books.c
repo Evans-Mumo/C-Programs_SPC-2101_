@@ -2,7 +2,7 @@
 /*
 Name: Evans Mumo
 Reg no: CT100/G/26238/25
-Description: Appends a borrowed book title to borrowed books.txt.
+Description: Program that appends a borrowed book title to borrowed books.txt.
 */
     
 #include <stdio.h>
@@ -29,4 +29,5 @@ int main(void) {
 
     return 0;
 }
+
 
